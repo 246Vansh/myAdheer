@@ -80,14 +80,14 @@ import footerPage from './footerPage.vue';
 
         <!-- Content -->
         <div class="bg-white p-4">
-            <p class="text-sm text-gray-800 font-poppins  mb-1">Product Name</p>
-            <p class="text-xl font-extrabold text-[#0F111A] font-poppins mb-3">150 QR</p>
+            <p class="text-xl text-[#0F111A] font-poppins   mb-1">Product Name</p>
+            <p class="text-2xl font-extrabold text-[#0F111A] font-poppins mb-3">150 QR</p>
 
             <div class="flex gap-3">
                 <!-- Add to Cart Button -->
                 <button
                     class="flex items-center gap-2 px-10 py-3 bg-gray-100 rounded-2xl text-[#4B4B6F] text-sm font-medium">
-                    <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="30" height="26" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M5.54199 10.292C6.02509 10.2922 6.41699 10.6559 6.41699 11.1045C6.4168 11.553 6.02497 11.9168 5.54199 11.917C5.05886 11.917 4.66718 11.5531 4.66699 11.1045C4.66699 10.6558 5.05874 10.292 5.54199 10.292ZM10.792 10.292C11.2751 10.2922 11.667 10.6559 11.667 11.1045C11.6668 11.553 11.275 11.9168 10.792 11.917C10.3089 11.917 9.91718 11.5531 9.91699 11.1045C9.91699 10.6558 10.3087 10.292 10.792 10.292ZM2.77051 0.676758C3.65646 0.676758 4.375 1.34432 4.375 2.16699H9.3125C11.257 2.16699 12.833 3.743 12.833 5.6875C12.833 7.632 11.257 9.20801 9.3125 9.20801H7.5C5.29086 9.20801 3.5 7.41715 3.5 5.20801V2.16699C3.5 1.79305 3.17322 1.48926 2.77051 1.48926H1.60449C1.36287 1.48926 1.16699 1.30737 1.16699 1.08301C1.16718 0.858792 1.36298 0.676758 1.60449 0.676758H2.77051ZM8.16699 3.58301C7.75289 3.58301 7.41717 3.91894 7.41699 4.33301V4.9375H6.70801L6.63184 4.94141C6.25356 4.97973 5.95801 5.29911 5.95801 5.6875C5.95801 6.07589 6.25356 6.39527 6.63184 6.43359L6.70801 6.4375H7.41699V7.04102C7.41699 7.45523 7.75278 7.79102 8.16699 7.79102C8.58106 7.79084 8.91699 7.45512 8.91699 7.04102V6.4375H9.625C10.0392 6.4375 10.375 6.10171 10.375 5.6875C10.375 5.27329 10.0392 4.9375 9.625 4.9375H8.91699V4.33301C8.91682 3.91905 8.58095 3.58318 8.16699 3.58301Z"
                             fill="#525A73" />
@@ -116,8 +116,9 @@ import footerPage from './footerPage.vue';
 
     <br />
 
-    <div>
-        <div class="bg-[#F3F3F3] p-6 rounded-2xl text-center max-w-3xl mx-auto">
+    <div class="px-4 sm:px-6 lg:px-0">
+        <div class="bg-[#F3F3F3] p-6 rounded-2xl text-center w-full max-w-3xl mx-auto">
+
             <!-- Header -->
             <div class="flex justify-center items-center gap-2 mb-4">
                 <span class="text-red-600 text-2xl">❤️</span>
@@ -127,7 +128,7 @@ import footerPage from './footerPage.vue';
             <!-- Description -->
             <p class="text-gray-700 text-base leading-relaxed mb-4">
                 we specialize in baked cakes, cupcakes and deserts. and all our products will<br />
-                be received freshly withing the 24 hourse from your order
+                be received freshly within the 24 hours from your order
             </p>
 
             <!-- Footer Line -->
@@ -136,6 +137,7 @@ import footerPage from './footerPage.vue';
             </p>
         </div>
     </div>
+
 
 
     <br />
